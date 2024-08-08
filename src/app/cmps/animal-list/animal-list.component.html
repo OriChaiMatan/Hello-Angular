@@ -1,0 +1,23 @@
+<section class="animals-list">
+    <h1>Animals List</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Type</th>
+                <th>Count</th>
+                <th>Search</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let animal of animalInfos">
+                <td>{{ animal.type }}</td>
+                <td>{{ animal.count }}</td>
+                <td>
+                    <a [href]="'https://www.google.com/search?q=' + animal.type" target="_blank">
+                    Lets search about {{ animal.type }}
+                  </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
