@@ -1,0 +1,42 @@
+.animals-list {
+
+    h1 {
+        font-size: 2em;
+        text-align: center;
+        color: #417392;
+    }
+
+    .animal-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-size: 1.2em;
+        text-align: center;
+        /* Center-align text */
+    }
+
+    .animal-table th,
+    .animal-table td {
+        padding: 12px 15px;
+        border: 1px solid #ddd;
+    }
+
+    .animal-table th {
+        background-color: #4c89af;
+        /* Green background for header */
+        color: white;
+        /* White text color */
+    }
+
+    .animal-table a {
+        color: #1E90FF;
+        /* Link color */
+        text-decoration: none;
+        /* Remove underline from links */
+    }
+
+    .animal-table a:hover {
+        text-decoration: underline;
+        /* Underline on hover */
+    }
+}
