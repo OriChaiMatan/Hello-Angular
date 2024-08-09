@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -12,4 +13,10 @@ export class AppHeaderComponent {
     { name: 'CountDown', route: '/count-down' },
     { name: 'Mouse-Tracker', route: '/mouse-tracker' },
   ];
+
+  constructor(private router: Router) {}
+
+  navigateHome() {
+    this.router.navigate(['/']);
+  }
 }
