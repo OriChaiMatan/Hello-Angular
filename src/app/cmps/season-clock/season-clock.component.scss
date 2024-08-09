@@ -1,0 +1,23 @@
+.season-clock {
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.5s ease;
+    border-radius: 15px;
+    
+    &.dark-mode {
+      background-color: #cd9a00;
+      color: #fff;
+    }
+    
+    &.light-mode {
+      background-color: #fbdd5a;
+      color: #ffffff;
+    }
+    
+    img {
+      margin-top: 20px;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  

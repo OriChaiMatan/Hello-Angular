@@ -1,0 +1,17 @@
+<!-- <section class="season-clock">
+    <h1>Season Clock!</h1>
+    <h1>{{season.date}}</h1>
+    <h1>{{season.season}}</h1>
+</section> -->
+<section 
+  class="season-clock" 
+  [ngClass]="{ 'dark-mode': season.isDark, 'light-mode': !season.isDark }" 
+  (click)="toggleBackground()">
+  
+  <h1>Season Clock!</h1>
+  <h2>{{ season.date | date: 'fullDate' }}</h2> <!-- Displays the full date -->
+  <h2>{{ season.season }}</h2>
+  <img [src]="season.img" alt="{{ season.season }} image" *ngIf="season.img">
+  <h2>{{ season.date | date: 'mediumTime' }}</h2>    
+</section>
+
