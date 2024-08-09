@@ -9,6 +9,7 @@ import { CountDownComponent } from './cmps/count-down/count-down.component';
 import { CommonModule } from '@angular/common';
 import { MouseMonitorComponent } from './cmps/mouse-monitor/mouse-monitor.component';
 import { AppHeaderComponent } from './cmps/app-header/app-header.component';
+import { HomePageComponent } from './cmps/home-page/home-page.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { AppHeaderComponent } from './cmps/app-header/app-header.component';
     CountDownComponent,
     MouseMonitorComponent,
     AppHeaderComponent,
+    HomePageComponent,
   ],
   imports: [
     BrowserModule,

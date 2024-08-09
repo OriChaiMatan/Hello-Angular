@@ -5,9 +5,10 @@ import { AnimalListComponent } from './cmps/animal-list/animal-list.component';
 import { CountDownComponent } from './cmps/count-down/count-down.component';
 import { SeasonClockComponent } from './cmps/season-clock/season-clock.component';
 import { MouseMonitorComponent } from './cmps/mouse-monitor/mouse-monitor.component';
+import { HomePageComponent } from './cmps/home-page/home-page.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/mouse-tracker', pathMatch: 'full' },
+  { path: '', component: HomePageComponent },
   { path: 'animals-list', component: AnimalListComponent },
   { path: 'season-clock', component: SeasonClockComponent },
   { path: 'count-down', component: CountDownComponent },
