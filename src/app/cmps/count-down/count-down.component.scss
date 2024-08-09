@@ -1,0 +1,10 @@
+.countdown-timer {
+    text-align: center;
+    font-size: 3rem;
+    transition: color 0.5s ease;
+  }
+  
+  .critical {
+    color: red; // Color change for the last 6 seconds
+  }
+  

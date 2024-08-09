@@ -59,7 +59,7 @@ export class SeasonClockComponent implements OnInit, OnDestroy {
       case 'Winter':
         return 'assets/imgs/winter.jpg';
       default:
-        return ''; // Fallback image or empty string
+        return ''; 
     }
   }
 
