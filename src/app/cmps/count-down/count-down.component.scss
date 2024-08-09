@@ -1,7 +1,11 @@
 .countdown {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     transition: color 0.5s ease;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgb(127, 202, 255);
+    color: white;
 
     .red-text {
       color: red;

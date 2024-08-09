@@ -13,7 +13,7 @@ import { CommonModule } from '@angular/common';
     AppComponent,
     AnimalListComponent,
     SeasonClockComponent,
-    CountDownComponent
+    CountDownComponent,
   ],
   imports: [
     BrowserModule,
