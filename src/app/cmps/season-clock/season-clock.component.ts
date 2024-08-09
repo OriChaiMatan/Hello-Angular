@@ -51,13 +51,13 @@ export class SeasonClockComponent implements OnInit, OnDestroy {
     const season = this.getCurrentSeason()
     switch (season) {
       case 'Spring':
-        return '../../assets/imgs/seasons/spring.png'
+        return 'assets/imgs/spring.jpg'
       case 'Summer':
-        return '../../assets/imgs/seasons/autumn.png';
+        return 'assets/imgs/summer.jpg';
       case 'Fall':
-        return '../../assets/imgs/seasons/summer.png';
+        return 'assets/imgs/autumn.jpg';
       case 'Winter':
-        return '../../assets/imgs/seasons/winter.png';
+        return 'assets/imgs/winter.jpg';
       default:
         return ''; // Fallback image or empty string
     }
