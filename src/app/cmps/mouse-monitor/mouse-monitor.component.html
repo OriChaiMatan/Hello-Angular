@@ -1,0 +1,7 @@
+<div class="mouse-tracker" [ngClass]="{'paused': !pos.isOn}">
+    <h1>Mouse Position:</h1>
+    <p>X : {{ pos.x }}</p>
+    <p>Y : {{ pos.y }}</p>
+    <button (click)="toggleTracking()">{{ pos.isOn ? 'Pause' : 'Resume' }}</button>
+  </div>
+  
