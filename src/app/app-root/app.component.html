@@ -1,4 +1,4 @@
 <section class="main-app">
   <h1>{{title}}</h1>
-  <count-down></count-down>
+  <count-down [startFrom]="10" (onDone)="handleCountdownDone()"></count-down>
 </section>
