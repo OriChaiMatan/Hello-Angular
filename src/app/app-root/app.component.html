@@ -1,7 +1,11 @@
-<section class="main-app">
+<!-- <section class="main-app">
   <h1>{{title}}</h1>
-  <!-- <animal-list></animal-list>
+  <animal-list></animal-list>
   <season-clock></season-clock>
-  <count-down [startFrom]="10" (onDone)="handleCountdownDone()"></count-down> -->
+  <count-down [startFrom]="10" (onDone)="handleCountdownDone()"></count-down>
   <mouse-monitor></mouse-monitor>
+</section> -->
+<app-header></app-header>
+<section class="main-app">
+  <router-outlet></router-outlet>
 </section>

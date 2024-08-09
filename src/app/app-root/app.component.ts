@@ -8,8 +8,4 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'hello-angular';
 
-  handleCountdownDone() {
-    alert('Countdown is done!');
-    // Add additional logic here, e.g., updating UI, alerting the user, etc.
-  }
 }

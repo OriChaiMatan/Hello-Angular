@@ -8,6 +8,7 @@ import { SeasonClockComponent } from './cmps/season-clock/season-clock.component
 import { CountDownComponent } from './cmps/count-down/count-down.component';
 import { CommonModule } from '@angular/common';
 import { MouseMonitorComponent } from './cmps/mouse-monitor/mouse-monitor.component';
+import { AppHeaderComponent } from './cmps/app-header/app-header.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { MouseMonitorComponent } from './cmps/mouse-monitor/mouse-monitor.compon
     SeasonClockComponent,
     CountDownComponent,
     MouseMonitorComponent,
+    AppHeaderComponent,
   ],
   imports: [
     BrowserModule,
