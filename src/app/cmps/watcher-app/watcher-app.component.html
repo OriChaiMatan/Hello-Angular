@@ -1,20 +1,22 @@
 <div class="watcher-list">
     <div *ngFor="let watcher of watchers" class="watcher">
-    <img [src]="watcher.img" alt="{{ watcher.fullname }}" class="watcher-img">
-      <h2>{{ watcher.fullname }}</h2>
-      <button (click)="selectWatcher(watcher)">Select</button>
-      <button (click)="deleteWatcher(watcher)">Delete</button>
+        <img [src]="watcher.img" alt="{{ watcher.fullname }}" class="watcher-img">
+        <h2>{{ watcher.fullname }}</h2>
+        <div class="btns">
+            <button (click)="selectWatcher(watcher)">Select</button>
+            <button (click)="deleteWatcher(watcher)">Delete</button>
+        </div>
     </div>
-  </div>
+</div>
 
-  <div *ngIf="selectedWatcher" class="modal">
+<div *ngIf="selectedWatcher" class="modal">
     <div class="modal-content">
-      <span class="close-button" (click)="closeModal()">&times;</span>
-      <h2>Watcher Name: {{ selectedWatcher.fullname }}</h2>
-      <h3>Movies List:</h3>
-      <ul>
-        <li *ngFor="let movie of selectedWatcher.movies">{{ movie }}</li>
-      </ul>
-      <button (click)="closeModal()">Close</button>
+        <span class="close-button" (click)="closeModal()">&times;</span>
+        <h2>Watcher Name: {{ selectedWatcher.fullname }}</h2>
+        <h3>Movies List:</h3>
+        <ul>
+            <li *ngFor="let movie of selectedWatcher.movies">{{ movie }}</li>
+        </ul>
+        <button (click)="closeModal()">Close</button>
     </div>
-  </div>
+</div>
