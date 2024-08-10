@@ -1,1 +1,10 @@
-<p>watcher-app works!</p>
+<div class="watcher-list">
+    <div *ngFor="let watcher of watchers" class="watcher">
+      <h2>{{ watcher.fullname }}</h2>
+      <p>ID: {{ watcher.id }}</p>
+      <h3>Movies:</h3>
+      <ul>
+        <li *ngFor="let movie of watcher.movies">{{ movie }}</li>
+      </ul>
+    </div>
+  </div>

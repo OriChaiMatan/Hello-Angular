@@ -1,0 +1,26 @@
+.watcher-list {
+    display: flex;
+    gap: 1.25rem; /* 20px equivalent in rem */
+    padding: 1.25rem; /* 20px equivalent in rem */
+  }
+  
+  .watcher {
+    flex: 1; /* Ensures all watchers have the same width */
+    padding: 0.625rem; /* 10px equivalent in rem */
+    border: 0.0625rem solid #ddd; /* 1px equivalent in rem */
+    border-radius: 0.3125rem; /* 5px equivalent in rem */
+    background-color: #f9f9f9;
+  
+    h2 {
+      margin-top: 0;
+    }
+  
+    ul {
+      padding-left: 1.25rem; /* 20px equivalent in rem */
+    }
+  
+    li {
+      list-style-type: disc;
+    }
+  }
+  
