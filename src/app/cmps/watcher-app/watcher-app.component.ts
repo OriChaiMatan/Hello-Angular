@@ -24,4 +24,7 @@ export class WatcherAppComponent {
     this.selectedWatcher = null;
   }
 
+  deleteWatcher(watcher: Watcher) {
+    this.watchers = this.watchers.filter(w => w.id !== watcher.id);
+  }
 }

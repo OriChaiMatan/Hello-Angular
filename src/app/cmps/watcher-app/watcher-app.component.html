@@ -2,7 +2,7 @@
     <div *ngFor="let watcher of watchers" class="watcher">
       <h2>{{ watcher.fullname }}</h2>
       <button (click)="selectWatcher(watcher)">Select</button>
-      <button>Delete</button>
+      <button (click)="deleteWatcher(watcher)">Delete</button>
     </div>
   </div>
 
