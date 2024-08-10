@@ -1,14 +1,14 @@
 .watcher-list {
     display: flex;
-    gap: 1.25rem; /* 20px equivalent in rem */
-    padding: 1.25rem; /* 20px equivalent in rem */
+    gap: 1.25rem; 
+    padding: 1.25rem; 
   }
   
   .watcher {
     flex: 1; /* Ensures all watchers have the same width */
-    padding: 0.625rem; /* 10px equivalent in rem */
-    border: 0.0625rem solid #ddd; /* 1px equivalent in rem */
-    border-radius: 0.3125rem; /* 5px equivalent in rem */
+    padding: 0.625rem; 
+    border: 0.0625rem solid #ddd; 
+    border-radius: 0.3125rem; 
     background-color: #f9f9f9;
   
     h2 {
@@ -16,11 +16,79 @@
     }
   
     ul {
-      padding-left: 1.25rem; /* 20px equivalent in rem */
+      padding-left: 1.25rem; 
     }
   
     li {
       list-style-type: disc;
     }
+  }
+  
+/* Modal Styles */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+  
+    ul {
+      list-style-type: none; /* Removes the bullet points */
+      padding-left: 0;       /* Removes any left padding */
+    }
+  
+    li {
+      margin-bottom: 0.5rem; /* Optional: Adds some space between items */
+    }
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  .watcher-list {
+    display: flex;
+    gap: 1.25rem;
+    padding: 1.25rem;
+  }
+  
+  .watcher {
+    flex: 1;
+    padding: 0.625rem;
+    border: 0.0625rem solid #ddd;
+    border-radius: 0.3125rem;
+    background-color: #f9f9f9;
+  }
+  
+  button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
   }
   
