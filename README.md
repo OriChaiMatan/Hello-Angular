@@ -1,28 +1,30 @@
-# HelloAngular
+# Hello-Angular App
+Welcome to my Angular Practice App! This project is a simple Angular application that I built to take my first steps in this powerful framework. It's a practice project designed to help me learn and improve my Angular skills.
+<img width="500" alt="Screenshot 2024-06-19 192535" src="https://github.com/user-attachments/assets/de73d582-8257-4028-a76b-3ef2304323c0">
+## Project Overview
+This Angular app includes several components to demonstrate basic functionality and practices in Angular:
+- **Animal-List**: Displays a list of animals.
+- **Season-Clock**: Shows the current season, month name, day name, and a running clock, with a toggle feature for dark and light background colors.
+- **Count-Down**: A countdown timer that counts down from a specified startFrom value to 0 and triggers an onDone event when the countdown is complete.
+- **Mouse-Monitor**: Renders a section constantly showing the current position of the mouse. When Pause is clicked, the section no longer monitors the mouse.
+- **Watchers-App**: Manages a watcher data model with an id, fullname, and movies list. Allow the user to select watcher and shows modal is rendered showing the user's name and movies list with a close button. Also the user have the option to delete watchers.
+## Features
+- Basic component structure and organization
+- Real-time clock and countdown functionality
+- Dynamic styling and interaction with components
+- Watcher data management with modal display
+## Installation
+1. Clone the repository:
+   ```bash
+   https://github.com/OriChaiMatan/Hello-Angular.git
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.4.
+2. Install dependencies:
+   ```bash
+   npm install
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-# Hello-Angular
+3. Start the application:
+   ```bash
+   ng serve
+## Contributor
+  - ⁠[Ori Chai Matan](https://github.com/OriChaiMatan)
+## Feel free to contact for any questions! 💻
