@@ -12,6 +12,7 @@ export class AppHeaderComponent {
     { name: 'Season-Clock', route: '/season-clock' },
     { name: 'CountDown', route: '/count-down' },
     { name: 'Mouse-Tracker', route: '/mouse-tracker' },
+    { name: 'Watchers-App', route: '/watcher-app' },
   ];
 
   constructor(private router: Router) {}

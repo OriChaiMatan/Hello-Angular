@@ -6,6 +6,7 @@ import { CountDownComponent } from './cmps/count-down/count-down.component';
 import { SeasonClockComponent } from './cmps/season-clock/season-clock.component';
 import { MouseMonitorComponent } from './cmps/mouse-monitor/mouse-monitor.component';
 import { HomePageComponent } from './cmps/home-page/home-page.component';
+import { WatcherAppComponent } from './cmps/watcher-app/watcher-app.component';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'season-clock', component: SeasonClockComponent },
   { path: 'count-down', component: CountDownComponent },
   { path: 'mouse-tracker', component: MouseMonitorComponent },
+  { path: 'watcher-app', component: WatcherAppComponent },
 ];
 
 @NgModule({

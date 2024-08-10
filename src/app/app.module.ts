@@ -10,6 +10,7 @@ import { CommonModule } from '@angular/common';
 import { MouseMonitorComponent } from './cmps/mouse-monitor/mouse-monitor.component';
 import { AppHeaderComponent } from './cmps/app-header/app-header.component';
 import { HomePageComponent } from './cmps/home-page/home-page.component';
+import { WatcherAppComponent } from './cmps/watcher-app/watcher-app.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { HomePageComponent } from './cmps/home-page/home-page.component';
     MouseMonitorComponent,
     AppHeaderComponent,
     HomePageComponent,
+    WatcherAppComponent,
   ],
   imports: [
     BrowserModule,
