@@ -9,9 +9,9 @@ import { Watcher } from '../../models/watcher.model';
 export class WatcherAppComponent {
 
   watchers: Watcher[] = [
-    { id: 'w101', fullname: 'Puki Ba', movies: ['Rambo', 'Rocky', 'Die Hard', 'Predator', 'Mad Max'] },
-    { id: 'w102', fullname: 'John Doe', movies: ['The Matrix', 'Inception', 'Interstellar', 'The Dark Knight', 'Blade Runner 2049'] },
-    { id: 'w103', fullname: 'Jane Smith', movies: ['Titanic', 'The Godfather', 'Schindler\'s List', 'Forrest Gump', 'Pulp Fiction'] }
+    { id: 'w102', fullname: 'John Doe', movies: ['The Matrix', 'Inception', 'Interstellar', 'The Dark Knight', 'Blade Runner 2049'], img: 'https://api.dicebear.com/9.x/thumbs/svg?seed=Aneka' },
+    { id: 'w101', fullname: 'Puki Ba', movies: ['Rambo', 'Rocky', 'Die Hard', 'Predator', 'Mad Max'], img: 'https://api.dicebear.com/9.x/thumbs/svg?seed=Felix' },
+    { id: 'w103', fullname: 'Jane Smith', movies: ['Titanic', 'The Godfather', 'Schindler\'s List', 'Forrest Gump', 'Pulp Fiction'], img: 'https://api.dicebear.com/9.x/thumbs/svg?seed=Sam' }
   ]
 
   selectedWatcher: Watcher | null = null;
